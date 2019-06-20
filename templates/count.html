@@ -1,0 +1,14 @@
+<h1>There are {{length}} words</h1>
+<button type="button" name="button"><a href="/." style="text-decoration:none"><h2>Start Again</h2></a></button>
+
+<h1>Your Text</h1>
+<h2>{{fulltext}}</h2>
+
+
+
+<h1>Counted Words</h1>
+
+{% for word in newword%}
+<h2>{{word.0 }} -- {{word.1}}</h2>
+
+{%endfor%}
